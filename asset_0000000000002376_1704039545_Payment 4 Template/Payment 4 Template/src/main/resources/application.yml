@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cnpayment
+    username: root
+    password: Karthik@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
